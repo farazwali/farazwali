@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="fav2.png" type="x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelizer - Explore the world</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style3.css">
+
+
+</head>
+<div>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>TF</span>Travel</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+
+    <div class="login-form-container">
+        <i class="fas fa-close" id="form-close"></i>
+
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+
+        </form>
+    </div>
+
+
+
+
+
+    <!-- home section starts here -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>adventure in worthwhile</h3>
+            <p>discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="img/vid1.mp4"></span>
+            <span class="vid-btn" data-src="img/vid2.mp4"></span>
+            <span class="vid-btn" data-src="img/vid3.mp4"></span>
+            <span class="vid-btn" data-src="img/vid4.mp4"></span>
+            <span class="vid-btn" data-src="img/vid5.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="img/vid1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+
+    <!-- book section stars here  -->
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="img/photo1.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+        </div>
+    </section>
+
+
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img/logo1.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>mumbai</h3>
+                    <p>Mumbai is located in the state of Maharashtra. It is famously known as the capital of Maharashtra and the financial capital of India. Earlier it was known as Bombay.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">₹5900 <span>₹10000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="img/logo2.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>switzerland</h3>
+                    <p>Switzerland is a small mountainous country located in central Europe. This landlocked country is about the size of New Jersey and is between France and Italy.It is also bordered by Austria, Germany, and Liechtenstein.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">₹5900 <span>₹10000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="img/logo3.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>tokyo</h3>
+                    <p>Tokyo is the administrative, cultural, financial, commercial, and educational centre of Japan and the focus of an extensive urban complex that includes Kawasaki and Yokohama.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">₹5900 <span>₹10000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class='box-container'>
+            <div class="box">
+                <img src="img/logo4.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>hawaii</h3>
+                    <p>Relaxation and natural beauty are the top draws. Known for its active volcanoes, wildlife refuges, and tall active peaks, it's little wonder that 88% of our respondents cite natural beauty as a reason for visiting Hawaii.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">₹5900 <span>₹10000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="img/logo5.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>bali</h3>
+                    <p>Glorious mountainous areas with lush greenery, scenic lakes, gorgeous waterfalls, iconic rice fields, flower gardens, gushing sacred rivers and secret canyons all make up the island's landscape.stunning beaches and a galore of culture and tradition.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">₹5900 <span>₹10000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="img/logo6.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>maldives</h3>
+                    <p>The Maldives is a country in the Indian Ocean. The Maldives belongs to the Asian continent and is located to the south of India or to the southwest of Sri Lanka. This is the smallest country on the Asian continent. On the map you can see the neighbouring countries and the location of the Maldives islands.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">₹5900 <span>₹10000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section class="services" id="services">
+
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Our hotels are commercial establishment that provides lodging, meals, and other services to guests, travelers, and tourists.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>We are responsible for taking orders, ringing them up in the register, preparing the order, and cashing out the customer in a courteous and prompt manner.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>We provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination.</p>
+            </div>
+
+        </div>
+
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Travel is the movement of people between distant geographical locations.We provide around the world packages for travelling.</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Around-the-world flight ticket is typically a collection of flights that begin and end in the same nation, travel in a single direction around the globe, and make multiple stops along the way.We provide fastest booking service to travel.</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Here you see niche tourism, involving exploration or travel and which may require special skills and physical exertion.You will enjoy the whole travel like an adventure. </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img/pic1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pic2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pic3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pic4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pic5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pic6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pic7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pic8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <!-- <div class="box">
+            <img src="potrait/pic9.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div> -->
+        </div>
+
+
+    </section>
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper mySwiper review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/cris.jpg" alt="">
+                        <h3>chris evans</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi laudantium aspernatur dolorum
+                            officiis enim quam, necessitatibus, labore nam, non laboriosam exercitationem adipisci at
+                            iste earum beatae vitae reiciendis quia mollitia.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/cris2.jpg" alt="">
+                        <h3>chris Hemsworth</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi laudantium aspernatur dolorum
+                            officiis enim quam, necessitatibus, labore nam, non laboriosam exercitationem adipisci at
+                            iste earum beatae vitae reiciendis quia mollitia.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/bella.jpg" alt="">
+                        <h3>Bella Hadid evans</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi laudantium aspernatur dolorum
+                            officiis enim quam, necessitatibus, labore nam, non laboriosam exercitationem adipisci at
+                            iste earum beatae vitae reiciendis quia mollitia.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/selena.png" alt="">
+                        <h3>Selena Gomez</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi laudantium aspernatur dolorum
+                            officiis enim quam, necessitatibus, labore nam, non laboriosam exercitationem adipisci at
+                            iste earum beatae vitae reiciendis quia mollitia.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="img/photo2.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <section class="brand-container">
+
+        <div class="swiper mySwiper brand-slider">
+            <div class="swiper-wrapper">
+                <!-- <div class="swiper-slide"><img src="guddey/gu1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="guddey/gu2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="guddey/gu3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="guddey/gu4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="guddey/gu5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="guddey/gu6.jpg" alt=""></div>
+        </div> -->
+            </div>
+
+    </section>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam exercitationem voluptas aliquam
+                laboriosam sint praesentium sequi debitis, consequatur temporibus. Ullam nisi soluta modi, officiis
+                error earum quaerat dolorem odio necessitatibus debitis cupiditate enim nihil porro fugit architecto
+                magnam fuga quibusdam!
+            </div>
+
+
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">japan</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">reviews</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+
+        </div>
+
+        <h1 class="credit">created by <span>Faraz Wali Khan</span>| all right reserved!</h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/javaScript.js"></script>
+    </body>
+
+</html>
